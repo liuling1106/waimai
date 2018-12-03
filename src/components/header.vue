@@ -1,15 +1,9 @@
 <template>
-<div class="header">
-<h1>{{msg}}</h1>
-</div>
+    <div class="header">
+        <h1>我是header</h1>
+    </div>
 </template>
-<script>
-export default {
-  name: "",
-  props: {
-    msg: "Hello"
-  }
-};
+<script type="text/javascript">
 </script>
-<style scoped>
+<style language="stylus" rel="stylesheet/stylus" >
 </style>
