@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <v-header/>
     <div class="tab">
         <div class="tab-item">
            <router-link to="/goods">goods</router-link>
         </div>
         <div class="tab-item">
-            <router-link to="/articals">articals</router-link>
+            <router-link to="/comments">comments</router-link>
         </div>
         <div class="tab-item">
-            <router-link to="/shopper">shopper</router-link>
+            <router-link to="/business">business</router-link>
         </div>
     </div>
     <router-view></router-view>
@@ -52,4 +51,14 @@ line-heigth:40px;
 flex:1;
 text-align:center;
 }
+#app .tab .tab-item a{
+display:block;
+text-decoration:none;
+font-size:14px;
+color:rgb(77,85,93);
+
+}
+#app .tab .tab-item a .active{
+    color:rgb(240,20,20)
+    }
 </style>
